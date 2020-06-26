@@ -1,0 +1,170 @@
+.carouselContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    width: 650px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 400px;
+}
+
+.carouselSlide{
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+}
+
+.carouselSlideActive {
+    display: block;
+}
+
+.carouselSlide img {
+    height: 100%;
+    /* width: auto; */
+    max-width: 550px;
+}
+
+.carouselSlide iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+} 
+
+.arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 46.5%;
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+.arrow:focus {
+    outline: 0;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+}
+
+.arrowLeft {
+    left: 10px;
+}
+
+.arrowRight {
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.indicatorContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: -33px;
+}
+
+.indicator {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 2.5px;
+    border: solid #b4b4b4;
+    border-width: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator:hover {
+    opacity: 0.5;
+    background-color: #b4b4b4;
+}
+
+.indicatorActive {
+    background-color: #b4b4b4;
+}
+
+/* MEDIA QUERIES */
+
+/* Large Desktop */
+@media only screen and (max-width: 1300px) {
+    
+}
+
+@media only screen and (max-width: 1020px) {
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 780px) {
+    .carouselContainer {
+        width: 550px;
+        height: 400px;
+    }
+    
+    .carousel {
+        width: 450px;
+        height: 300px;
+    }
+
+    .arrow {
+        top: 45%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .projectDetails {
+        padding: 20px 0px;
+    }
+
+    .carouselContainer {
+        width: 300px;
+        height: 250px;
+    }
+
+    .carousel {
+        width: 230px;
+        height: 190px;
+    }
+
+    .carouselSlide img {
+        height: 100%;
+        max-width: 230px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+        top: 44%;
+    }
+
+    .arrowLeft {
+        left: 5px;
+    }
+    
+    .arrowRight {
+        right: 5px;
+    }
+
+    .indicatorContainer {
+        bottom: -22px;
+    }
+
+    .projectTitle {
+        margin: 5px 0px 0px 0px;
+        font-size: 30px;
+    }
+}
