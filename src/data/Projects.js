@@ -356,89 +356,89 @@ const Projects = [
             "title": "jinx video"
           }
       ]
-    },
-
-    {
-      "CardTitle": "Miscellaneous Work",
-      "Color": "#ff9d00",
-      "ColorTitle": "#c6790a",
-      "CardImage": require('../assets/images/miscellaneous/miscellaneous.png'),
-      "ProjectTitle": "Miscellaneous",
-      "ProjectTech": "Maya, InDesign, Illustrator",
-      "ProjectDescription": "Festivals of the world - Illustrator posters of festivals per continent to promote tourism.\n \nAtlanta Olympic Games Book - InDesign layout design exercise.\n \nMaya comic book – Maya 3D textured models to create a comic book with effective mise-en-scene elements.",
-      "CarouselMedia": [
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/festivals.jpg'),
-            "alt": "festivals around the world"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/floriade.png'),
-            "alt": "floriade"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/balloon.png'),
-            "alt": "balloon"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/sanfermin.png'),
-            "alt": "sanfermin"
-          },
-          // {
-          //   "type": "image",
-          //   "src": require('../assets/images/miscellaneous/vote1.png'),
-          //   "alt": "vote 1"
-          // },
-          // {
-          //   "type": "image",
-          //   "src": require('../assets/images/miscellaneous/vote2.png'),
-          //   "alt": "vote 2"
-          // },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/booklayout.svg'),
-            "alt": "atlanta olympic games"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/branding.svg'),
-            "alt": "olympic games branding"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/numbers.svg'),
-            "alt": "olympic games in numbers"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/tv.png'),
-            "alt": "rabbit scene"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/rabbit2.png'),
-            "alt": "rabbit"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/rabbit.png'),
-            "alt": "rabbit 2"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/couch.png'),
-            "alt": "couch"
-          },
-          {
-            "type": "image",
-            "src": require('../assets/images/miscellaneous/eyes.png'),
-            "alt": "rabbit's eyes"
-          },
-      ]
     }
+
+    // {
+    //   "CardTitle": "Miscellaneous Work",
+    //   "Color": "#ff9d00",
+    //   "ColorTitle": "#c6790a",
+    //   "CardImage": require('../assets/images/miscellaneous/miscellaneous.png'),
+    //   "ProjectTitle": "Miscellaneous",
+    //   "ProjectTech": "Maya, InDesign, Illustrator",
+    //   "ProjectDescription": "Festivals of the world - Illustrator posters of festivals per continent to promote tourism.\n \nAtlanta Olympic Games Book - InDesign layout design exercise.\n \nMaya comic book – Maya 3D textured models to create a comic book with effective mise-en-scene elements.",
+    //   "CarouselMedia": [
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/festivals.jpg'),
+    //         "alt": "festivals around the world"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/floriade.png'),
+    //         "alt": "floriade"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/balloon.png'),
+    //         "alt": "balloon"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/sanfermin.png'),
+    //         "alt": "sanfermin"
+    //       },
+    //       // {
+    //       //   "type": "image",
+    //       //   "src": require('../assets/images/miscellaneous/vote1.png'),
+    //       //   "alt": "vote 1"
+    //       // },
+    //       // {
+    //       //   "type": "image",
+    //       //   "src": require('../assets/images/miscellaneous/vote2.png'),
+    //       //   "alt": "vote 2"
+    //       // },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/booklayout.svg'),
+    //         "alt": "atlanta olympic games"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/branding.svg'),
+    //         "alt": "olympic games branding"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/numbers.svg'),
+    //         "alt": "olympic games in numbers"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/tv.png'),
+    //         "alt": "rabbit scene"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/rabbit2.png'),
+    //         "alt": "rabbit"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/rabbit.png'),
+    //         "alt": "rabbit 2"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/couch.png'),
+    //         "alt": "couch"
+    //       },
+    //       {
+    //         "type": "image",
+    //         "src": require('../assets/images/miscellaneous/eyes.png'),
+    //         "alt": "rabbit's eyes"
+    //       },
+    //   ]
+    // }
 ]
 
 export default Projects;

@@ -28,7 +28,7 @@ class App extends React.Component {
             </div>
           </div>
           <div className="bioContainer">
-            <p className="bio">I'm a Front End Developer from 
+            <p className="bio">I'm a Front End Engineer, originally from 
               <a href="http://www.colombia.travel/en" className="link"> Colombia</a>. I studied 
               <a href="https://cm.lmc.gatech.edu/major-overview-3/" className="link"> Computational Media </a> 
               (CS + Design + Digital Media) at the
